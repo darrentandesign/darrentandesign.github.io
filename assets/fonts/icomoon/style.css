@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kvtec8');
+  src:  url('fonts/icomoon.eot?kvtec8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kvtec8') format('truetype'),
+    url('fonts/icomoon.woff?kvtec8') format('woff'),
+    url('fonts/icomoon.svg?kvtec8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-twitter-square:before {
+  content: "\f081";
+}
+.icomoon-facebook-square:before {
+  content: "\f082";
+}
+.icomoon-linkedin-square:before {
+  content: "\f08c";
+}
+.icomoon-github-square:before {
+  content: "\f092";
+}
+.icomoon-phone-square:before {
+  content: "\f098";
+}
+.icomoon-twitter:before {
+  content: "\f099";
+}
+.icomoon-facebook:before {
+  content: "\f09a";
+}
+.icomoon-facebook-f:before {
+  content: "\f09a";
+}
+.icomoon-github:before {
+  content: "\f09b";
+}
+.icomoon-pinterest:before {
+  content: "\f0d2";
+}
+.icomoon-pinterest-square:before {
+  content: "\f0d3";
+}
+.icomoon-google-plus-square:before {
+  content: "\f0d4";
+}
+.icomoon-google-plus:before {
+  content: "\f0d5";
+}
+.icomoon-linkedin:before {
+  content: "\f0e1";
+}
+.icomoon-github-alt:before {
+  content: "\f113";
+}
+.icomoon-html5:before {
+  content: "\f13b";
+}
+.icomoon-css3:before {
+  content: "\f13c";
+}
+.icomoon-youtube-square:before {
+  content: "\f166";
+}
+.icomoon-youtube:before {
+  content: "\f167";
+}
+.icomoon-xing:before {
+  content: "\f168";
+}
+.icomoon-xing-square:before {
+  content: "\f169";
+}
+.icomoon-youtube-play:before {
+  content: "\f16a";
+}
+.icomoon-dropbox:before {
+  content: "\f16b";
+}
+.icomoon-stack-overflow:before {
+  content: "\f16c";
+}
+.icomoon-instagram:before {
+  content: "\f16d";
+}
+.icomoon-flickr:before {
+  content: "\f16e";
+}
+.icomoon-adn:before {
+  content: "\f170";
+}
+.icomoon-bitbucket:before {
+  content: "\f171";
+}
+.icomoon-bitbucket-square:before {
+  content: "\f172";
+}
+.icomoon-tumblr:before {
+  content: "\f173";
+}
+.icomoon-tumblr-square:before {
+  content: "\f174";
+}
+.icomoon-apple:before {
+  content: "\f179";
+}
+.icomoon-windows:before {
+  content: "\f17a";
+}
+.icomoon-android:before {
+  content: "\f17b";
+}
+.icomoon-linux:before {
+  content: "\f17c";
+}
+.icomoon-skype:before {
+  content: "\f17e";
+}
+.icomoon-vk:before {
+  content: "\f189";
+}
+.icomoon-vimeo-square:before {
+  content: "\f194";
+}
+.icomoon-yahoo:before {
+  content: "\f19e";
+}
+.icomoon-google:before {
+  content: "\f1a0";
+}
+.icomoon-reddit:before {
+  content: "\f1a1";
+}
+.icomoon-reddit-square:before {
+  content: "\f1a2";
+}
+.icomoon-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.icomoon-stumbleupon:before {
+  content: "\f1a4";
+}
+.icomoon-pied-piper-pp:before {
+  content: "\f1a7";
+}
+.icomoon-drupal:before {
+  content: "\f1a9";
+}
+.icomoon-joomla:before {
+  content: "\f1aa";
+}
+.icomoon-behance:before {
+  content: "\f1b4";
+}
+.icomoon-behance-square:before {
+  content: "\f1b5";
+}
+.icomoon-steam:before {
+  content: "\f1b6";
+}
+.icomoon-steam-square:before {
+  content: "\f1b7";
+}
+.icomoon-spotify:before {
+  content: "\f1bc";
+}
+.icomoon-deviantart:before {
+  content: "\f1bd";
+}
+.icomoon-soundcloud:before {
+  content: "\f1be";
+}
+.icomoon-vine:before {
+  content: "\f1ca";
+}
+.icomoon-git-square:before {
+  content: "\f1d2";
+}
+.icomoon-git:before {
+  content: "\f1d3";
+}
+.icomoon-hacker-news:before {
+  content: "\f1d4";
+}
+.icomoon-y-combinator-square:before {
+  content: "\f1d4";
+}
+.icomoon-yc-square:before {
+  content: "\f1d4";
+}
+.icomoon-paper-plane:before {
+  content: "\f1d8";
+}
+.icomoon-send:before {
+  content: "\f1d8";
+}
+.icomoon-paper-plane-o:before {
+  content: "\f1d9";
+}
+.icomoon-send-o:before {
+  content: "\f1d9";
+}
+.icomoon-share-alt:before {
+  content: "\f1e0";
+}
+.icomoon-share-alt-square:before {
+  content: "\f1e1";
+}
+.icomoon-paypal:before {
+  content: "\f1ed";
+}
+.icomoon-google-wallet:before {
+  content: "\f1ee";
+}
+.icomoon-cc-visa:before {
+  content: "\f1f0";
+}
+.icomoon-cc-mastercard:before {
+  content: "\f1f1";
+}
+.icomoon-cc-discover:before {
+  content: "\f1f2";
+}
+.icomoon-cc-amex:before {
+  content: "\f1f3";
+}
+.icomoon-cc-paypal:before {
+  content: "\f1f4";
+}
+.icomoon-cc-stripe:before {
+  content: "\f1f5";
+}
+.icomoon-lastfm:before {
+  content: "\f202";
+}
+.icomoon-lastfm-square:before {
+  content: "\f203";
+}
+.icomoon-facebook-official:before {
+  content: "\f230";
+}
+.icomoon-pinterest-p:before {
+  content: "\f231";
+}
+.icomoon-medium:before {
+  content: "\f23a";
+}
+.icomoon-y-combinator:before {
+  content: "\f23b";
+}
+.icomoon-yc:before {
+  content: "\f23b";
+}
+.icomoon-optin-monster:before {
+  content: "\f23c";
+}
+.icomoon-opencart:before {
+  content: "\f23d";
+}
+.icomoon-tripadvisor:before {
+  content: "\f262";
+}
+.icomoon-odnoklassniki:before {
+  content: "\f263";
+}
+.icomoon-odnoklassniki-square:before {
+  content: "\f264";
+}
+.icomoon-wikipedia-w:before {
+  content: "\f266";
+}
+.icomoon-safari:before {
+  content: "\f267";
+}
+.icomoon-chrome:before {
+  content: "\f268";
+}
+.icomoon-firefox:before {
+  content: "\f269";
+}
+.icomoon-opera:before {
+  content: "\f26a";
+}
+.icomoon-internet-explorer:before {
+  content: "\f26b";
+}
+.icomoon-contao:before {
+  content: "\f26d";
+}
+.icomoon-500px:before {
+  content: "\f26e";
+}
+.icomoon-amazon:before {
+  content: "\f270";
+}
+.icomoon-vimeo:before {
+  content: "\f27d";
+}
+.icomoon-reddit-alien:before {
+  content: "\f281";
+}
+.icomoon-edge:before {
+  content: "\f282";
+}
+.icomoon-modx:before {
+  content: "\f285";
+}
+.icomoon-gitlab:before {
+  content: "\f296";
+}
+.icomoon-glide:before {
+  content: "\f2a5";
+}
+.icomoon-glide-g:before {
+  content: "\f2a6";
+}
+.icomoon-snapchat:before {
+  content: "\f2ab";
+}
+.icomoon-snapchat-ghost:before {
+  content: "\f2ac";
+}
+.icomoon-snapchat-square:before {
+  content: "\f2ad";
+}
+.icomoon-yoast:before {
+  content: "\f2b1";
+}
+.icomoon-themeisle:before {
+  content: "\f2b2";
+}
+.icomoon-google-plus-circle:before {
+  content: "\f2b3";
+}
+.icomoon-google-plus-official:before {
+  content: "\f2b3";
+}
+.icomoon-telegram:before {
+  content: "\f2c6";
+}
+.icomoon-imdb:before {
+  content: "\f2d8";
+}
+.icomoon-meetup:before {
+  content: "\f2e0";
+}
+.icomoon-right-arrow-long:before {
+  content: "\e900";
+}
+.icomoon-left-arrow-long:before {
+  content: "\e901";
+}
+.icomoon-chevron-up:before {
+  content: "\e902";
+}
+.icomoon-chevron-down:before {
+  content: "\e903";
+}
+.icomoon-chevron-right:before {
+  content: "\e904";
+}
+.icomoon-chevron-left:before {
+  content: "\e905";
+}
+.icomoon-refresh:before {
+  content: "\e908";
+}
+.icomoon-letter:before {
+  content: "\e909";
+}
+.icomoon-right-arrow:before {
+  content: "\e90a";
+}
+.icomoon-left-arrow:before {
+  content: "\e90b";
+}
+.icomoon-menu:before {
+  content: "\e90c";
+}
+.icomoon-play:before {
+  content: "\e906";
+}
+.icomoon-pin:before {
+  content: "\e907";
+}

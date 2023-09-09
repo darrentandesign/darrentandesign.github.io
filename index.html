@@ -1,61 +1,304 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!-- required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arcworks</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Lib styles -->
+    <link rel="stylesheet" href="libs/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/simpleLightbox/simplelightbox.min.css">
 
-    <title>Find a Movie</title>
-  </head>
+    <!-- Font styles -->
+    <link rel="stylesheet" href="assets/fonts/NunitoSans/NunitoSans.css">
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
 
-  <div class="content">
-    
-    <div class="container">
-      <h2 class="mb-5">Find a Movie</h2>
-      
+    <!-- Site styles -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
 
-      <div class="table-responsive">
+    <link rel="icon" href="favicon.png"/>
+</head>
 
-        <table class="table table-striped custom-table">
-          <thead>
-            <tr> 
-              <th scope="col">Poster</th>
-              <th scope="col">Title</th>
-              <th scope="col">Info</th>
-              <th scope="col">Synopsis</th>
-              <!-- <th scope="col">Link</th> -->
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody id="myTableBody">
-            <!-- More TR's here as needed -->
-          </tbody>
-        </table>
-      </div>
+<body class="home">
+    <div class="trans-layer"></div>
 
+    <header id="main-header" class="site-header header-home is-fixed">
+        <div class="page-backdrop"></div>
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <a href="/" class="logo header-logo"><img src="images/logo.svg" alt=""></a>
+                <div class="header-nav ml-auto">
+                    <button class="menu-toggle icomoon-menu" id="js-open-menu"></button>
+                    <div class="main-menu-wrap" id="js-main-menu">
+                        <button class="menu-toggle menu-close icomoon-left-arrow-long" id="js-close-menu"></button>
+                        <ul class="nav main-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="what-we-do.html">What We Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="events.html">Events</a>
+                               <!-- <ul class="sub-menu nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="events.html">Events List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="event-single.html">Events Single</a>
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="career.html">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    </div>
+    <main id="main-content" class="site-content bg-lines">
 
-  </div>
+        <section class="hero" data-bgColorStart="204, 179, 157" data-bgColorEnd="209, 209, 209">
+            <div class="hero-slider d-flex flex-column">
+                <div class="js-hero-slider">
+                    <div class="hero-slide" style="background-image: url('images/hero.jpg')">
+                        <div class="container hero-slide-inner full-height">
+                            <h1 class="hero-title">A design culture that transforms experience</h1>
+                            <div class="hero-text">Leading provider of architecture services</div>
+                            <button class="btn btn-icon hero-btn"><i class="icomoon-play"></i> Watch video</button>
+                            <div class="hero-author">Arcus House, Los Angeles</div>
+                        </div>
+                    </div>
+                    <div class="hero-slide" style="background-image: url('images/home_8.jpg')">
+                        <div class="container hero-slide-inner full-height">
+                            <h1 class="hero-title">Dutch County Residence</h1>
+                            <div class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                            <button class="btn btn-icon hero-btn"><i class="icomoon-play"></i> Watch video</button>
+                            <div class="hero-author">Miami, FL, United States</div>
+                        </div>
+                    </div>
+                    <div class="hero-slide" style="background-image: url('images/event_2.jpg')">
+                        <div class="container hero-slide-inner full-height">
+                            <h1 class="hero-title">Natural breeze & lighting symphony</h1>
+                            <div class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                            <button class="btn btn-icon hero-btn"><i class="icomoon-play"></i> Watch video</button>
+                            <div class="hero-author">Nha Trang, Vietnam</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-auto slick-count js-slick-count"></div>
+            </div>
+        </section>
 
+        <section class="home-figure">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 home-figure__img">
+                        <div class="slide-image-wrap">
+                            <figure class="figure slide-image-left">
+                                <img class="figure-img" src="images/home_1.jpg" alt="">
+                                <figcaption class="figure-caption">Lester Jayeux, Architect MOAQ</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 home-figure__text abs-box abs-box-right fade-from-top">
+                        <h3 class="abs-box__title">Design is transformative</h3>
+                        <div class="abs-box__text">
+                            We have a strong reputation for achieving excellence in quality, innovation and delivery
+                            while providing our clients with a level of service that meets their expectations.
+                        </div>
+                        <a href="#" class="btn btn-icon hero-btn"><i class="icomoon-right-arrow"></i> Work With Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="home-projects">
+            <div class="container">
+                <div class="section-title d-md-flex align-items-center">
+                    <h2 class="mb-md-0 mb-4 mr-md-4">Projects</h2>
+                    <a href="projects.html" class="btn btn-primary">All projects <i class="icomoon-right-arrow-long"></i></a>
+                </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+                <div class="row project-list">
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link"><img src="images/home_2.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">A viewpoint to Talamanca</a></h4>
+                        <div class="project-item__loc">Minato-ku, Tokyo</div>
+                    </div>
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link" data-delay="300"><img src="images/home_3.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">Casa Don Juan</a></h4>
+                        <div class="project-item__loc">Ecuador</div>
+                    </div>
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link"><img src="images/home_4.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">Natural breeze & lighting symphony</a></h4>
+                        <div class="project-item__loc">Nha Trang, Vietnam</div>
+                    </div>
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link" data-delay="300"><img src="images/home_5.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">Hechingen Studio</a></h4>
+                        <div class="project-item__loc">Shenzhen, China</div>
+                    </div>
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link"><img src="images/home_6.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">Boneo Country House</a></h4>
+                        <div class="project-item__loc">VIC, Australia</div>
+                    </div>
+                    <div class="col-md-6 project-item">
+                        <div class="slide-image-wrap">
+                            <a href="project-single.html" class="project-item__img-link" data-delay="300"><img src="images/home_7.jpg" alt="" class="project-item__img"></a>
+                        </div>
+                        <h4 class="project-item__title"><a href="project-single.html">Downside Up House</a></h4>
+                        <div class="project-item__loc">Melbourne, Australia</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <script type="text/javascript" src="moviedata.json"></script>
-  <script type="text/javascript" src="populate.js">
-  </script>
+        <section class="bg-section content-bottom home-bg" style="background-image: url('images/home_8.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 abs-box">
+                        <h3 class="abs-box__title">The culture of design</h3>
+                        <div class="abs-box__text">
+                            We have the expertise to deliver small to medium sized contracts across many sectors of
+                            the industry.
+                            The company with its many project managers oversaw the activities of a large team of over
+                            100 construction personnel at the peak of economic activity.
+                        </div>
+                        <a href="about.html" class="btn btn-icon hero-btn"><i class="icomoon-right-arrow"></i> Meet The Team</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-events bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mb-5">
+                        <h3 class="mb-4">Events</h3>
+                        <a href="#" class="btn btn-primary">All Events <i class="icomoon-right-arrow-long"></i></a>
+                    </div>
+                    <div class="col-lg-3 fade-from-top" data-delay="200">
+                        <div class="event">
+                            <div class="event__date date">September 7, 2020</div>
+                            <h4 class="event__title"><a href="event-single.html">BuildTech Asia events</a></h4>
+                            <div class="event__loc location"><i class="icomoon-pin"></i> CA, United States</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 fade-from-top" data-delay="400">
+                        <div class="event">
+                            <div class="event__date date">July 24, 2020</div>
+                            <h4 class="event__title"><a href="event-single.html">Webinar sponsorship information art modern architecture </a></h4>
+                            <div class="event__loc location"><i class="icomoon-pin"></i> Beijing, China</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 fade-from-top" data-delay="600">
+                        <div class="event">
+                            <div class="event__date date">December 15, 2019</div>
+                            <h4 class="event__title"><a href="event-single.html">Future of Interior trade show and conference</a></h4>
+                            <div class="event__loc location"><i class="icomoon-pin"></i> La Plata, Argentina</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="widget-col col-lg-2">
+                    <div class="widget widget-logo">
+                        <a href="/" class="logo footer-logo"><img src="images/logo-footer.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="widget-col col-lg-3">
+                    <div class="widget widget-text">
+                        <p>310.900.4000</p>
+                        <p><a href="mailto:office@arc.works">office@arc.works</a></p>
+                        <p>Monday — Sunday 8:00‒22:00</p>
+                    </div>
+                </div>
+
+                <div class="widget-col col-lg-3">
+                    <div class="widget widget-text">
+                        <p>212 Wilshire Blvd. Suite 1245</p>
+                        <p>San Francisco, California</p>
+                        <p>CA 90015</p>
+                    </div>
+                </div>
+
+                <div class="widget-col col-lg-4">
+                    <div class="widget widget-newsletter">
+                        <h6>Newsletter Sign Up</h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control form-control-sm"  placeholder="Email address" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary btn-sm" type="button" id="button-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-auto">
+                    <div class="copy-text">© Arcworks. All Rights Reserved.</div>
+                </div>
+                <div class="col-auto">
+                    <ul class="nav footer-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms of use</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lib scripts  -->
+    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="libs/bootstrap-4.3.1/js/popper.min.js"></script>
+    <script src="libs/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="libs/greensock-js/TweenMax.min.js"></script>
+    <script src="libs/scrollreveal/scrollreveal.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/simpleLightbox/simple-lightbox.min.js"></script>
+    <script src="libs/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="libs/isotope/isotope.min.js"></script>
+
+    <!-- Site scripts  -->
+    <script src="assets/js/common.min.js"></script>
+</body>
+
 </html>
